@@ -1,0 +1,9 @@
+\documentclass{article}
+\usepackage{CJK}
+\begin{document}
+\begin{CJK*}{GBK}{song}
+我是来自计算机学院的女生韦婷婷，学号是2014050205030.\\
+我喜欢\\
+对latex早有耳闻
+\end{CJK*}
+\end{document}

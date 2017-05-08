@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\begin{document}
+
+\%                                        \\
+\$                                        \\
+\^                                        \\
+\$                                        \\
+\_                                        \\
+\$                                        \\
+\&                                        \\
+\&                                        \\
+\&                                        \\
+\&                                        \\
+\#\$\%\^\&\^\%\^\$\#\$\%\%\%\^\$          \\
+                                          \\
+                                          \\
+\#\$\%\^\&\^\%\^\$\#\$\%\%\%\^\$          \\
+\hspace*{1.5cm}\&                         \\
+\hspace*{1.5cm}\^                         \\
+\hspace*{1.5cm}\&                         \\
+\hspace*{1.5cm}\^                         \\
+\hspace*{1.5cm}\&                         \\
+\hspace*{1.5cm}\^                         \\
+\hspace*{1.5cm}\&                         \\
+\hspace*{1.5cm}\^                         \\
+                                          \\
+
+\end{document}

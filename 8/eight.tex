@@ -1,0 +1,79 @@
+\documentstyle{article}
+ \topmargin=0pt
+ \oddsidemargin=0pt \evensidemargin=0pt % 设置页面边距
+ \textwidth=14cm                         %设置字的宽度
+ \textheight=21cm                        %设置字的高度
+                                         %
+ \title{This is a sample of \LaTeX}
+ \author{Bigeyes(\tt{chencs@263.net})\\
+         Department of Mathematics\\     %作者的个人信息
+         USTC, Anhui, Hefei, 230026      %
+                                         %
+ \and
+         A\_A                            %
+ \thanks{Supported by ...}
+         \\                              %
+         BBS of USTC\\                   %
+         bbs.ustc.edu.cn[202.38.64.3]}   %
+ \date{Mar. 1, 2009}
+
+ \begin{document}
+
+ \maketitle
+                                          \begin{abstract}                        % 摘要
+ This is mini-page defined for abstract, %
+ you only write your abstract in it. If %
+ you want to shows keywords, maybe you   %
+ should use:                             %
+
+ {\bf Keywords: }\LaTeX, example         %  关键字
+ \end{abstract}                          %
+                                         %
+ \section{The very beginning}            % 第一部分 标题是the 
+ This is the first section of your       %  very beginning
+ article. You may find every first       % 
+ paragraph of your section, subsection, %
+ chapter or ... always has no            % 第一部分正文
+ ``parindent'' at the beginning.         %
+
+ This is the second paragrph, you can    %
+ find this has parindent at the          %
+ beginning. If you want to show          %
+ parindent at first paragraph too,       %
+ do as the first paragraph I showed      %
+ in the next section.                    %
+                                         %
+ \section{The 2nd step}                  % 第一部分 标题是The 
+ \hskip \parindent                       %  2nd step
+ This is the second section. In this     % 
+ first paragraph, I use `hskip' to       %
+ get the first parindent. Maybe you      % 第二部分正文
+ can get this effect by another way.     %
+                                         %
+ \subsection{Sub-sect of 2}              % 第二部分第一小节2.1
+ this                                    % 标题Sub-sect of 2
+                                         % 正文 this
+                                         %
+ \subsection*{\S 2.2 Another sub of 2}   % 第二部分第二小节2.2
+ this                                    % 标题Another sub of 2
+                                         % 正文 this
+ \section{Conclusion}                    %
+ I think you have know \TeX well now.    % 总结部分
+ I want to show you how to use           %
+ bibliography. In the article, you       %
+ can use as ``see \cite{texbook}''.      %
+                                         %
+ \begin{thebibliography}{0}
+
+
+ \bibitem{texbook} Donald~E.~Knouth, ``The \TeX book'',  %引用
+ Addison-Wesley, 1984
+ \bibitem{lamport} L.\ Lamport, ``\LaTeX:
+         A Document Preparation System'',
+         Addison-Wesley, 1994
+ \bibitem{companion} M.~Goossens, F.~Millelbach,
+         and A.~Samarin, ``The \LaTeX\ Companion'',
+         Addison--Wesley, 1994
+ \end{thebibliography}
+
+ \end{document}               

@@ -1,0 +1,73 @@
+\documentclass[12pt]{article}
+\usepackage{fullpage}
+\textheight=9.0in                  %设置正文高度
+\pagestyle{empty}                  %设置页码
+\raggedbottom                      %使得段落间隔一致
+\raggedright                       %对齐
+\setlength{\tabcolsep}{0in}        %距离设置
+\usepackage{CJK}
+
+\begin{document}
+\begin{CJK}{GBK}{kai}
+\begin{center}
+
+{\large \textbf{韦婷婷}}\\
+  13408517890\\
+  goociw@foxmail.com \\
+  20岁 女
+  \end{center}
+  \rule[4pt]{18cm}{0.5pt}
+  \smallskip
+  {\large \textbf{\underline{教育背景:}}}\\
+  \begin{itemize}
+ \item 工学学士 \qquad 电子科技大学, 电子科技大学计算机科学与工程学院, \ \qquad 2014.9 - 目前
+   \smallskip
+             \newline \hphantom{工学硕士 \qquad } {\small Total GPA:0/100, \quad Major GPA:0/100 } \quad Rank: 124/124\\
+ \bigskip
+\end{itemize}
+
+\bigskip
+{\large \textbf{\underline{专业技能:}}}\\
+\bigskip
+\begin{itemize}
+ \item C/C++/java/python,掌握matlab,了解Santard ML/JavaScript/Ruby
+ \item 掌握mysql
+ \item 了解常见的设计模式和函数式编程思想
+ \item 了解logistic regression，KNN,SVM，GBDT等常见的机器学习算法
+ \end{itemize}
+\bigskip
+
+\bigskip
+{\large \textbf{\underline{研究兴趣:}}}\\
+\begin{itemize}
+\item 机器学习
+\end{itemize}
+
+\bigskip
+{\large \textbf{\underline{研究经历:}}}\\
+\medskip
+\begin{itemize}
+\item \textbf{日期:} 2014.9 - 现在\\
+\smallskip
+\textbf{项目名称:} 论西游中的美女们\\
+\smallskip
+\textbf{负责人:} 白骨精教授\\
+\smallskip
+\textbf{概 述:}该项目主要通过研究，训练出一识别美女的模型来
+\end{itemize}
+
+\bigskip
+{\large \textbf{\underline{所获奖励:}}}\\
+\medskip
+\begin{itemize}
+\item  全国大学生电子设计竞赛省级三等奖  \qquad 2015.8
+\end{itemize}
+
+
+{\large \textbf{\underline{英文水平:}}}
+\begin{itemize}
+\item CET-6
+\end{itemize}
+
+\end{CJK}
+\end{document}
